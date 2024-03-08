@@ -7,9 +7,9 @@ let smoothness = 0.5;
 
 function setup() {
 
-  let canvas = createCanvas(800, 500);
-  canvas.id("p5canvas");
-  canvas.parent("p5-canvas-container");
+  let c = createCanvas(800, 500);
+  c.id("p5canvas");
+  c.parent("p5-canvas-container");
 }
 
 function draw() {
